@@ -1,0 +1,257 @@
+:root {
+    --maincolor: #0075ff;
+}
+/* start page contact us */
+
+/* start section contact-header */
+.contact-header{
+    background: url('../images/1549029.jpg') no-repeat center center fixed  ;
+     background-size: cover;
+    height:400px;
+    margin-top: -20px;
+    margin-bottom: 50px;
+ }
+ .contact-header .opacity{
+     height: 100%;
+background-color: rgba(0, 0, 0, 0.8);
+color: #fff;
+
+ }
+ .contact-header h1{
+     margin-top:125px ;
+     font-size: 40px;
+ }
+ .contact-header h1::after {
+    content: "";
+    width: 60px;
+    height: 6px;
+    margin-top: 80px;
+    margin-right: -100px;
+     border-radius: 5px;
+    background-color: var(--maincolor);
+    position: absolute;
+ }
+
+ 
+/* end section contact-header */
+/* start section contact-form */
+.form-message{
+  margin-top: -20px;
+     color:#fff;
+    background: url('../images/contact-us.jpg') no-repeat center center fixed;
+
+;
+}
+
+.form-message  .opacity{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    height: 100%;
+background-color: rgba(0, 0, 0, 0.7);
+color: #fff;
+
+}
+
+.form-message .contact-form input {
+    margin-bottom: 10px;
+}
+
+ 
+.form-message .contact-form .form-control {
+    background: rgba(82, 78, 78, 0.5);
+    color: #FFF;
+    border: none;
+}
+
+.social{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgba(179, 162, 162, 0.438);
+}
+
+/* end section contact-form */
+
+/* end page contact us */
+
+/* start page who */
+
+/* start section who-header */
+.who-header{
+    background: url('../images/بوتاجاز.jpg') no-repeat center center fixed  ;
+     background-size: cover;
+    height:400px;
+    margin-top: -20px;
+    margin-bottom: 50px;
+ }
+ .who-header .opacity{
+     height: 100%;
+background-color: rgba(0, 0, 0, 0.8);
+color: #fff;
+
+ }
+ .who-header h1{
+     margin-top:125px ;
+     font-size: 40px;
+ }
+ .who-header h1::after {
+    content: "";
+    width: 60px;
+    height: 6px;
+    margin-top: 80px;
+    margin-right: -85px;
+     border-radius: 5px;
+    background-color: var(--maincolor);
+    position: absolute;
+ }
+
+
+ .who-info{
+     padding-top: 40px;
+     padding-bottom: 60px;
+ }
+ .who-info .text-info p{
+    color: #000;
+    font-size: large;
+    line-height: initial;
+ }
+ .who-info .img-info{
+      background: url('../images/صيانة-مكيفات.jpg') no-repeat center center ;
+     background-size: cover;
+     height: 300px;
+      
+ }
+ .who-info .img-info p{
+     color:rgba(0, 0, 0, 0.8);
+ }
+ .who-info .img-info h2{
+     margin-top: 50px;
+ }
+ .who-info .opacity{
+    height: 100%;
+background-color: rgba(0, 0, 0, 0.8);
+color: #fff;
+padding-top: 30px;
+
+}
+/* end section who-header */
+
+/* start section enquiry */
+.enquiry{
+    background: url('../images/team.jpg') no-repeat center center fixed;
+    background-size: cover; 
+    min-height: 200px;
+}
+.enquiry .btn{
+margin-top: 40px;
+padding: 15px 30px;
+}
+.enquiry .opacity{
+    height: 100%;
+background-color: rgba(0, 0, 0, 0.8);
+color: #fff;
+padding-top: 30px;
+padding-bottom:55px;
+
+
+}
+/* end section enquiry */
+
+/* start page who */
+
+
+/* start page blog */
+
+/* start section blog-header */
+   
+.blog-header{
+    background: url('../images/مدونة.jpeg') no-repeat center center fixed  ;
+   background-size: cover;
+    height:400px;
+    margin-top: -20px;
+    margin-bottom: 50px;
+ }
+ .blog-header .opacity{
+     height: 100%;
+background-color: rgba(0, 0, 0, 0.8);
+color: #fff;
+
+ }
+ .blog-header h1{
+     margin-top:125px ;
+     font-size: 40px;
+ }
+ .blog-header h1::after {
+    content: "";
+    width: 125px;
+    height: 6px;
+    margin-top: 80px;
+    margin-right:-315px;
+     border-radius: 5px;
+    background-color: var(--maincolor);
+    position: absolute;
+  }
+
+ @media (max-width : 767px) {
+    .blog-header h1::after {
+        content: "";
+        width: 125px;
+        height: 6px;
+        margin-top: 80px;
+        margin-right:-115px;
+         border-radius: 5px;
+        background-color: var(--maincolor);
+        position: absolute;
+     }
+     
+ }
+
+/* end section blog-header */
+
+/* start section blog-features */
+
+.blog-features  {
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.blog-features .box {
+    margin-bottom: 30px;
+    margin-left: 25px;
+    padding-bottom: 25px;
+    background-color: rgb(248, 246, 246) ;
+}
+.blog-features .text-box{
+padding: 10px 25px 25px;
+}
+.blog-features .box h4 {
+    color: #1c93e2;
+    margin-top: 25px;
+}
+.blog-features .box p {
+    font-size: 17px;
+   
+}
+.blog-features img{
+    width: 100%;
+    height: 250px;
+}
+
+
+
+
+/* end section blog-features */
+
+
+/* start agencies */
+.agencies{
+    min-height: 800px;
+    overflow: hidden;
+}
+.agencies img{
+    width: 100%;
+    height: 100%;
+}
+/* start agencies */
+
+
+
+/* end page blog */

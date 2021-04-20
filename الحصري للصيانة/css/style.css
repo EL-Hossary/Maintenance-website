@@ -1,0 +1,444 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@600 &display=swap");:root {
+    --maincolor: #0075ff;
+}
+
+body {
+    font-family: "Cairo";
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/* start navbar  */
+
+.navbar {
+    background-color: var(--maincolor);
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+    background-color: #000;
+}
+
+
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+    padding: 30px 15px;
+    font-size: 18px;
+    margin-left: 10px;
+    transition: ease-in-out 0.3s;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    background-color: #000;
+}
+
+.navbar-inverse .navbar-brand {
+    position: relative;
+    font-size: xx-large;
+    color: #fff;
+    padding: 20px 15px 50px;
+}
+
+.navbar-inverse .navbar-brand span {
+    color: rgb(191, 205, 206);
+    font-size: large;
+    margin-top: 10px;
+    display: block;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background-color: rgb(56, 114, 238);
+}
+
+
+@media(max-width: 767px) {
+    .navbar-collapse   ul{
+        display: flex;
+        flex-direction: column-reverse;
+    } 
+}
+
+
+/* end navbar */
+
+
+/* start our slide */
+
+.carousel {
+    min-height: 550px;
+}
+
+.carousel-caption {
+    top: 150px;
+    color: #fff;
+    background-color: rgba(34, 34, 34, 0.85);
+    height: 120px;
+    width: 250px;
+}
+
+.carousel-caption h1 {
+    margin: auto;
+}
+
+.carousel-indicators li {
+    height: 15px;
+    width: 15px;
+}
+
+.carousel-indicators li.active {
+    background-color: var(--maincolor);
+    height: 17px;
+    width: 17px;
+}
+
+.slide {
+    margin-top: -20px;
+}
+
+.carousel-inner > .item > img {
+    width: 100%;
+}
+
+.carousel-control {
+    border-radius: 50%;
+    top: 300px;
+    width: 50px;
+    height: 50px;
+    left: 50px;
+    opacity: 1;
+    color:var(--maincolor);
+    background-color: #fff;
+    text-shadow: none;
+}
+.fa-chevron-right,
+.fa-chevron-left {
+    margin-top: 16px;
+}
+.right.carousel-control {
+    right: 50px;
+
+}
+.carousel-inner > .item > img {
+    height: 600px;
+}
+
+/* small screen */
+
+@media(min-width: 768px) and(max-width: 991px) {
+    .carousel-indicators {
+        top: 325px;
+    }
+    .carousel-control {
+        border-radius: 50%;
+        top: 170px;
+        width: 50px;
+        height: 50px;
+        color: var(--maincolor);
+        background-color: #fff;
+    }
+}
+
+
+/* end our slide */
+
+
+
+/* start section header */
+
+.header {
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+.header h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--maincolor);
+    margin-bottom: 15px;
+}
+
+
+/* end section header */
+
+
+/* start section features */
+
+.features {
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+.features .boxs .box {
+    border: 3px solid yellowgreen;
+    height: 500px;
+    border-radius: 10px;
+    padding: 20px 25px;
+    margin-bottom: 25px;
+    box-shadow: 10px 10px rgb(204, 214, 224);
+}
+
+.features .boxs .box h2 {
+    color: var(--maincolor);
+    margin-bottom: 70px;
+}
+
+.features .boxs .box h2::after {
+    content: "";
+    width: 60px;
+    height: 6px;
+    margin-top: 60px;
+    margin-right: -80px;
+    border-radius: 5px;
+    background-color: yellowgreen;
+    position: absolute;
+}
+
+
+/* start media query */
+
+.features .boxs .box p span {
+    color: rgb(175, 20, 20);
+}
+
+.features .boxs .box button {
+    padding-bottom: 10px;
+    font-size: large;
+}
+
+.features .boxs .box button i {
+    margin-right: 10px;
+}
+
+.features .boxs .box .fa-gears {
+    margin-top: 50px;
+}
+
+.features .box-img {
+    padding-top: 25px;
+}
+
+.features .box-img .opacity {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    transition: ease-in-out 1s;
+}
+
+.features .box-img .box {
+    height: 400px;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 25px;
+}
+.features .box-img .box h2 {
+    margin-bottom: 30px;
+}
+.features .box-img .box-2 {
+    background: url('../images/team.jpg') no-repeat center center;
+
+}
+.features .box-img .box-1 {
+    background: url('../images/بوتاجاز.jpg') no-repeat center center;
+
+}
+.features .box-img .box-3 {
+    background: url('../images/فنى-تصليح-ثلاجات-780x470.jpg') no-repeat center center;
+
+}
+
+.features .head-feature {
+    color: var(--maincolor);
+    font-size: 40px;
+    margin-top: 50px;
+    line-height: 80px;
+}
+/* end section features */
+
+
+/* start section our services */
+.our-services {
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.our-services .service {
+    margin-bottom: 30px;
+    margin-left: 25px;
+    padding: 0;
+    border: 1px solid rgb(167, 160, 160);
+}
+.our-services .service h2 {
+    color: #1c93e2;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.our-services .service p {
+    font-size: 16px;
+    line-height: initial;
+}
+.our-services .service p span {
+    font-size: 19px;
+    color: rgb(51, 12, 36);
+}
+
+
+/* end section our services */
+
+
+/* start section why-us */
+
+.why-us {
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+.why-us .info h1 {
+    color: var(--maincolor);
+    margin-bottom: 50px;
+}
+
+
+.why-us .info p {
+    font-size: medium;
+    line-height: initial;
+}
+
+.why-us .boxs .box {
+    box-shadow: 5px 5px 5px 5px rgb(170, 158, 158);
+    margin-bottom: 25px;
+    height: 400px;
+
+}
+.why-us .boxs .box .opacity {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    transition: ease-in-out 0.5s;
+
+}
+.why-us .boxs .box i {
+    margin-bottom: 50px;
+
+
+}
+.why-us .boxs .box h4 {
+    margin-bottom: 50px;
+}
+.why-us .boxs .box p {
+    font-size: 15px;
+    line-height: initial;
+}
+.why-us .boxs .box1 {
+    background: url('../images/فن_خدمة_العملاء_وكيفية_المحافظة_عليهم.jpg') no-repeat center center;
+
+
+}
+.why-us .boxs .box2 {
+    background: url('../images/images.jpeg') no-repeat center center;
+
+
+}
+.why-us .boxs .box3 {
+    background: url('../images/company_team.jpg') no-repeat center center;
+
+
+}
+
+/* end section why-us */
+
+/* start section contact-us */
+
+.contact-us {
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.contact-us .contact {
+    padding-top: 40px;
+    padding-bottom: 70px;
+    background: var(--maincolor);
+    border-radius: 20px;
+    color: #fff;
+    border: 5px solid rgb(189, 113, 14);
+    box-shadow: 7px 7px 7px 7px rgb(170, 158, 158);
+}
+.contact-us .contact h1 {
+    margin-bottom: 80px;
+}
+.contact-us .contact h2 {
+    margin-bottom: 25px;
+}
+.contact-us .contact i {
+    color: rgb(189, 113, 14);
+}
+.contact-us .contact h3 {
+    margin-top: 25px;
+}
+.contact-us h3 {
+    margin-top: 60px;
+}
+.contact-us .fa-facebook-square {
+    color: #4054B2;
+    transition: ease-in-out 0.5s;
+}
+.contact-us .fa-facebook-square:hover {
+    color: rgb(189, 113, 14);
+}
+/* end section contact-us */
+
+
+/* start scroll to top */
+
+.scroll-top {
+    position: fixed;
+    right: 15px;
+    bottom: 20px;
+    width: 50px;
+    height: 40px;
+    z-index: 99999;
+    text-align: center;
+    background-color: var(--maincolor);
+    color: #ddd;
+    cursor: pointer;
+    display: none;
+}
+
+
+/* end scroll to top */
+
+
+
+
+/* start section footer  */
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+footer p span {
+    color: red;
+    font-weight: bold;
+}
+
+
+/* end section footer  */
+
+@media (max-width: 800px) {
+    .wow {
+        animation-name: none !important;
+        visibility: visible !important;
+    }
+}
